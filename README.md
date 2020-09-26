@@ -1,5 +1,5 @@
 ## LiquidEffect
-Javascript Library for creating liquid effect 
+Javascript Library for creating liquid effect and RGB effect on mouse direction.
 
 ## Demo
 https://liquideffect.netlify.app/
