@@ -30,6 +30,20 @@ npm i @pixi/filter-rgb-split
         intensityY: 1.5,
     });
 </script>
+
+OR
+
+import LiquidEffect from 'liquid-effect'
+
+LiquidEffect({
+    appendTo: "#main",
+    image: './assets/images/image.jpg',
+    displacementImage: "./assets/images/displacement_map.jpg",
+    displacementScale: 1,
+    speed: 1,
+    intensityX: 1.5,
+    intensityY: 1.5,
+});
 ```
 
 ## Parameters
