@@ -37,7 +37,7 @@ npm i @pixi/filter-rgb-split
 ```javascript
 npm i liquideffect
 
-import LiquidEffect from 'liquid-effect'
+import LiquidEffect from 'liquideffect'
 
 LiquidEffect({
     appendTo: "#main",
