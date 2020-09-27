@@ -1,26 +1,28 @@
-## LiquidEffect
+# LiquidEffect
 Javascript Library for creating liquid effect on image and RGB effect on mouse direction.
 
 ## Demo
 https://liquideffect.netlify.app/
 
-## Dependencies
+# Dependencies
+## NPM Package
 ```html
-<script src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.3/dist/pixi.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/pixi-filters@2.6.1/dist/pixi-filters.js"></script>
-<script src="LiquidEffect.js"></script>
-
-OR
-
 npm i pixi.js
 npm i @pixi/filter-displacement
 npm i @pixi/filter-rgb-split
 ```
+## Browser
+```html
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.3/dist/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-filters@2.6.1/dist/pixi-filters.js"></script>
+<script src="<PATH_TO_FILE>/LiquidEffect.js"></script>
+```
 
-## Usage
+# Usage
+## Vanilla JavaScript
 ```html
 <script>
-    LiquidEffect({
+    new LiquidEffect({
         appendTo: "#main",
         image: './assets/images/image.jpg',
         displacementImage: "./assets/images/displacement_map.jpg",
@@ -30,9 +32,9 @@ npm i @pixi/filter-rgb-split
         intensityY: 1.5,
     });
 </script>
-
-OR
-
+```
+## With Framework
+```javascript
 import LiquidEffect from 'liquid-effect'
 
 LiquidEffect({
