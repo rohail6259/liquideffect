@@ -10,7 +10,6 @@ https://liquideffect.netlify.app/
 npm i pixi.js
 npm i @pixi/filter-displacement
 npm i @pixi/filter-rgb-split
-npm i liquideffect
 ```
 ## Browser
 ```html
@@ -36,6 +35,8 @@ npm i liquideffect
 ```
 ## With Framework
 ```javascript
+npm i liquideffect
+
 import LiquidEffect from 'liquid-effect'
 
 LiquidEffect({
